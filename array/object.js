@@ -60,3 +60,14 @@ const obj3 = {...obj1, ...obj2} // fastest way to merge object
 
 // console.log(obj3);
 
+// +++++++++++++ part3 +++++++++++++++
+
+const course = {
+    courseName: "js",
+    price: "999",
+    courseInstructor: "Koushik"
+}
+// console.log(course.courseInstructor);
+
+const {courseInstructor} = course
+console.log(courseInstructor);
