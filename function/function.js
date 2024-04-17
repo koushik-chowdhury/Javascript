@@ -1,69 +1,77 @@
-function sayMyName(){
-    console.log("k");
-    console.log("O");
-    console.log("U");
-    console.log("S");
-    console.log("H");
-    console.log("I");
+// console.log("k");
+// console.log("o");
+// console.log("u");
+// console.log("s");
+// console.log("h");
+// console.log("i");
+// console.log("k");
+
+function myName() {
+  console.log("k");
+  console.log("o");
+  console.log("u");
+  console.log("s");
+  console.log("h");
+  console.log("i");
+  console.log("k");
 }
+// myName()
 
-// sayMyName()
-
-// function addTwoNumbers(number1, number2){
-
-//     console.log(number1 + number2);
+// function sum(num1, num2) {
+//   console.log(num1 + num2);
 // }
+// sum(10, 20)
 
-function addTwoNumbers(number1, number2){
-
-    // let result = number1 + number2
-    // return result
-    return number1 + number2
+function sum(num1, num2) {
+  let result = num1 + num2;
+  return result;
 }
+const res = sum(2, 8);
+// console.log(res);
 
-const result = addTwoNumbers(3, 5)
-
-// console.log("Result: ", result);
-
-
-function loginUserMessage(username = "sam"){
-    if(!username){
-        console.log("PLease enter a username");
-        return
-    }
-    return `${username} just logged in`
+function loginUserMessage(username) {
+  if (username === undefined) {
+    console.log("Please enter a username");
+    return;
+  } else {
+    return `${username} just logged in`;
+  }
 }
+// console.log(loginUserMessage());
 
-// console.log(loginUserMessage("Koushik"))
-// console.log(loginUserMessage("Koushik"))
-
-
-function calculateCartPrice(val1, val2, ...num1){
-    return num1
+function addToCart(...num1){
+    return num1;
 }
-
-// console.log(calculateCartPrice(200, 400, 500, 2000))
+// console.log(addToCart(100, 500, 700));
 
 const user = {
-    username: "KOUSHIK",
-    prices: 199
+    username: "koushik",
+    price: 599
 }
 
-function handleObject(anyobject){
-    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+function handleObject(anyObject){
+    console.log(`username is ${anyObject.username} and price is ${anyObject.price}`)
 }
 
 // handleObject(user)
-handleObject({
-    username: "KADS",
-    price: 399
-})
 
-const myNewArray = [200, 400, 100, 600]
+const myArray = [2, 4, 5]
 
-function returnSecondValue(getArray){
-    return getArray[1]
+function returnArray(getArray){
+    return getArray;
 }
 
-// console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([200, 400, 500, 1000]));
+console.log(returnArray(myArray));
+
+
+// error{
+// const u1 = {
+//     price: 540
+// }
+// const u2 = {
+//     price: 999
+// }
+// function test(object){
+//     console.log(`u1 price ${all.price}`);
+// }
+// test(u1,u2) }
