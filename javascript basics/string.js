@@ -46,4 +46,4 @@ console.log(name[0]);
 console.log(name.__proto__);
 console.log(name.length);
 
-// charAt // indexOf // slice // trim // replace
+// charAt // indexOf // slice // trim // replace // split
