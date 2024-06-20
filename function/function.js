@@ -15,7 +15,6 @@ function myName() {
   console.log("i");
   console.log("k");
 }
-// myName()
 
 // function sum(num1, num2) {
 //   console.log(num1 + num2);
