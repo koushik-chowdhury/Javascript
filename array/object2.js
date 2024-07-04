@@ -22,4 +22,4 @@ console.log(jsUser.location[print]);
 const update = jsUser[`${"email"}`]
 
 jsUser.update = "csakoushik"
-console.log(jsUser["update"]);
+console.log(jsUser["update"])
