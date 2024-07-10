@@ -67,7 +67,6 @@ let age = (ageTime / 8.64e+7) // converting into days
 age = new String(age)
 age = age.split(".")
 let totalDays = Number(age[0])
-totalDays
 const year = Math.trunc(totalDays / 365)
 let month = Math.trunc((totalDays % 365) / 31)
 let day = Math.trunc((totalDays % 365) % 30)
