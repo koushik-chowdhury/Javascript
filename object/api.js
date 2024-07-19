@@ -15,4 +15,4 @@ const user = {
 
 const {id, firstName, lastName, city, state} = user;
 
-console.log(firstNam lkdjsfkje);
+console.log(firstNam);
